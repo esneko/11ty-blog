@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ meta.lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ meta.title }}</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com/">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <div class="layout" role="document">
+    {% include "header.njk" %}
+    <main id="main" class="main">
+      {{ content | safe }}
+    </main>
+    {% include "footer.njk" %}
+  </div>
+  <script type="module" src="{{ '/assets/js/main.js' | url }}"></script>
+</body>
+</html>

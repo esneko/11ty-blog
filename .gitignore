@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Eleventy
+_site/
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.env
