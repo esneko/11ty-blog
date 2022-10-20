@@ -29,7 +29,7 @@
     "@11ty/eleventy-img": "^2.0.1",
     "@11ty/eleventy-navigation": "^0.3.3",
     "@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
-    "@jamshop/eleventy-plugin-mdx": "^0.0.1",
+    "@esneko/eleventy-plugin-mdx": "^0.0.1",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",
