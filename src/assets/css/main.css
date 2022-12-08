@@ -1,7 +1,7 @@
 body {
   max-width: 650px;
   margin: 40px auto;
-  padding: 0 10px;
+  padding: 0 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   color: #444;
@@ -11,6 +11,26 @@ h1,
 h2,
 h3 {
   line-height: 1.2;
+}
+
+.header__container {
+  display: flex;
+}
+.header__left {
+  flex-grow: 1;
+}
+
+.nav__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.nav__item {
+  list-style: none;
+}
+.nav__link {
+  display: block;
+  padding: 0 1em;
 }
 
 @media (prefers-color-scheme: dark) {

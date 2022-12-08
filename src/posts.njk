@@ -1,13 +1,13 @@
 ---
 layout: base
-permalink: /posts/
+permalink: /works/
 eleventyNavigation:
-  key: Posts
+  key: Works
   order: 2
 ---
 
 <div class="container">
-    <h1>Posts</h1>
+    <h1>Works</h1>
     {% set postslist = collections.posts %}
     <ol reversed class="postlist">
       {% for post in postslist | reverse %}
