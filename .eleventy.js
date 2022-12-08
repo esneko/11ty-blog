@@ -1,3 +1,4 @@
+import mdx from '@mdx-js/rollup'
 const mdxPlugin = require('@jamshop/eleventy-plugin-mdx')
 
 const EleventyPluginNavigation = require('@11ty/eleventy-navigation')
@@ -11,6 +12,12 @@ module.exports = function (eleventyConfig) {
     viteOptions: {
       publicDir: 'public',
       clearScreen: false,
+      plugins: [
+        mdx({
+          jsxRuntime: 'automatic',
+          jsxImportSource: 'react'
+        })
+      ],
       server: {
         mode: 'development',
         middlewareMode: true
@@ -20,6 +27,7 @@ module.exports = function (eleventyConfig) {
         sourcemap: 'true',
         manifest: true,
         rollupOptions: {
+          external: ['react'],
           output: {
             assetFileNames: 'assets/css/main.[hash].css',
             chunkFileNames: 'assets/js/[name].[hash].js',
