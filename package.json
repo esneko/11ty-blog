@@ -24,22 +24,19 @@
   },
   "homepage": "https://github.com/esneko/11ty-blog#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0-canary.16",
+    "@11ty/eleventy": "^2.0.0-canary.29",
     "@11ty/eleventy-img": "^2.0.1",
-    "@11ty/eleventy-navigation": "^0.3.3",
-    "@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@jamshop/eleventy-plugin-mdx": "^0.0.17",
-    "@types/react": "^18.0.17",
-    "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.1.0",
-    "autoprefixer": "^10.4.7",
-    "cssnano": "^5.1.12",
-    "del-cli": "^4.0.1",
-    "vite": "^3.1.0"
+    "@mdx-js/mdx": "^2.2.1",
+    "@mdx-js/react": "^2.2.1",
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.10",
+    "autoprefixer": "^10.4.13",
+    "cssnano": "^5.1.14",
+    "del-cli": "^5.0.0"
   },
   "dependencies": {
-    "@mdx-js/mdx": "^1.6.22",
-    "@mdx-js/react": "^1.6.22",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   }
